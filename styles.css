@@ -184,3 +184,34 @@ flex-direction: column;
     font-size: 1.6rem;
     margin-bottom: 10px;
 }
+
+.overview-list {
+    padding: 40px 20px;
+    border-radius: 20px;
+    margin: 40px 0;
+    background: #ffffff;
+}
+
+.overview-list h2{
+    margin-bottom: 40px;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.overview-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.overview-item {
+    flex: 1;
+    min-width: 200px;
+    position: relative;
+    padding: 20px;
+}
+
+.overview-item strong {
+    
+}
