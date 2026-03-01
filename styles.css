@@ -213,5 +213,15 @@ flex-direction: column;
 }
 
 .overview-item strong {
-    
+    display: block;
+    color: #007bff;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.overview-item span {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #444;
 }
