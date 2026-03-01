@@ -52,6 +52,7 @@ nav {
     margin-left: 50px;
     flex: 1;
     justify-content: center;
+    display: flex;
 }
 
 nav ul {
@@ -79,7 +80,8 @@ nav ul li a:hover {
     width: 100px;
     height: auto;
     display: block;
-    border-radius: 0;
+    border-radius: 10;
+    border: 2px solid black;
 }
 
 .header-inner {
@@ -143,4 +145,26 @@ nav ul li a:hover {
     top: 0;
     position: sticky;
     box-shadow: 0 2px 10px;
+}
+
+.theater-article {
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+.theater-article .article-content {
+    flex: 1.5;
+    text-align: left;
+}
+
+.theater-article figure {
+    flex: 1;
+    margin: 0%;
+}
+
+.theater-article figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
