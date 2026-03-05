@@ -292,3 +292,18 @@ flex-direction: column;
 .musik-article:nth-child(even) {
     flex-direction: row-reverse;
 }
+
+.musik-projekte {
+    padding: 40px 20px;
+    border-radius: 20px;
+    margin: 40px 0;
+    background: #ffffff;
+}
+
+musik-projekte-text {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
