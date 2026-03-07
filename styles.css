@@ -425,6 +425,10 @@ figcaption {
         padding: 15px;
     }
 
+    .header-site {
+        position: static;
+    }
+
     nav {
         margin-left: 0;
         width: 100%;
