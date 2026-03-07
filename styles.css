@@ -276,6 +276,11 @@ flex-direction: column;
     flex: 1;
 }
 
+.musik-article h3 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
 .musik-article figure {
     flex: 1;
     margin: 0
@@ -461,4 +466,24 @@ figcaption {
     max-height: 400px;
     object-fit: cover;
    }
+
+   .musik-article {
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+   }
+
+   .musik-article:nth-child(even) {
+        flex-direction: column; 
+    }
+
+    .musik-article figure img {
+        min-height: auto;
+        max-height: 400px;
+    }
+
+    .musik-projekte {
+        padding: 20px;
+        margin-bottom: 50px;
+    }
 }
