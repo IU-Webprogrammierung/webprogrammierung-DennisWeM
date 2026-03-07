@@ -411,3 +411,33 @@ figcaption {
     position: relative;
     color: #333
 }
+
+@media (max-width: 768px) {
+
+    .header-inner {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    nav {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+   .teaser-grid {
+    flex-direction: column;
+    gap: 50px;
+   }
+
+   .teaser-grid img {
+        height: auto;
+        min-height: 250px;
+   }
+}
