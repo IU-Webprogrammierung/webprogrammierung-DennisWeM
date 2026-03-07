@@ -486,4 +486,24 @@ figcaption {
         padding: 20px;
         margin-bottom: 50px;
     }
+
+    .about-overview-grid {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .about-overview-item {
+        width: 100%;
+        max-width: 400px;
+        padding: 15px;
+    }
+
+    .about-image {
+        max-width: 80%;
+    }
+
+    .about-image img {
+        height: auto;
+    }
 }
