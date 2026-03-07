@@ -313,3 +313,82 @@ musik-projekte-text {
     font-size: 1.5rem;
 }
 
+.about-intro {
+    max-height: 800px;
+    margin: 40px 0 60px 0;
+    padding: 0 20px;
+}
+
+.about-text {
+    font-size: 1.2rem;
+    position: relative;
+    color: #333
+}
+
+.about-intro h1 {
+      font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #333
+}
+
+.about-overview {
+     padding: 40px 20px;
+    border-radius: 20px;
+    margin: 40px 0;
+    background: #ffffff;
+}
+
+.about-overview h2 {
+     margin-bottom: 40px;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.about-overview-grid {
+     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.about-overview-item {
+    flex: 1;
+    min-width: 200px;
+    position: relative;
+    padding: 20px;
+}
+
+.about-overview-item strong {
+    display: block;
+    color: #007bff;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.about-overview-item span {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #444;
+}
+
+.about-image {
+    margin: 60px auto 40px;
+    max-width: 500px;
+    display: block;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+figcaption {
+    margin-top: 15px;
+    color: #222;
+    font-style: italic;
+    font-size: 1.2rem;
+    text-align: center;
+}
