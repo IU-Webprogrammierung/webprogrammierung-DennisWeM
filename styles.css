@@ -392,3 +392,22 @@ figcaption {
     font-size: 1.2rem;
     text-align: center;
 }
+
+.title-teaser {
+    max-height: 800px;
+    margin: 40px 0 60px 0;
+    padding: 0 20px;
+}
+
+.title-teaser h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #333
+}
+
+.title-teaser-text {
+     font-size: 1.2rem;
+    position: relative;
+    color: #333
+}
