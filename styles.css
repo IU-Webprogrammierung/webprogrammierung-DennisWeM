@@ -168,8 +168,8 @@ nav ul li a:hover {
 .theater-article figure {
     flex: 1;
     margin: 0;
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .theater-article figure img {
@@ -192,7 +192,7 @@ flex-direction: column;
     background: #ffffff;
 }
 
-.overview-list h2{
+.overview-list h2 {
     margin-bottom: 40px;
     color: #333;
     font-size: 1.5rem;
@@ -246,19 +246,19 @@ flex-direction: column;
 }
 
 .musik-header {
-     max-height: 800px;
+    max-height: 800px;
     margin: 40px 0 60px 0;
     padding: 0 20px;
 }
 
 .musik-text {
-       font-size: 1.2rem;
+    font-size: 1.2rem;
     position: relative;
     color: #333
 }
 
 .musik-header h1 {
-     font-size: 2.5rem;
+    font-size: 2.5rem;
     font-weight: 500;
     margin-bottom: 20px;
     color: #333
@@ -269,7 +269,8 @@ flex-direction: column;
     align-items: center;
     gap: 60px;
     margin-bottom: 60px;
-    text-align: left;;
+    text-align: left;
+    ;
 }
 
 .musik-article .musik-content {
@@ -289,9 +290,11 @@ flex-direction: column;
 .musik-article figure img {
     width: 100%;
     height: 100%;
-    min-height: 400px;;
+    min-height: 400px;
+    ;
     object-fit: cover;
-    border-radius: 20px;;
+    border-radius: 20px;
+    ;
 }
 
 .musik-article:nth-child(even) {
@@ -331,27 +334,27 @@ musik-projekte-text {
 }
 
 .about-intro h1 {
-      font-size: 2.5rem;
+    font-size: 2.5rem;
     font-weight: 500;
     margin-bottom: 20px;
     color: #333
 }
 
 .about-overview {
-     padding: 40px 20px;
+    padding: 40px 20px;
     border-radius: 20px;
     margin: 40px 0;
     background: #ffffff;
 }
 
 .about-overview h2 {
-     margin-bottom: 40px;
+    margin-bottom: 40px;
     color: #333;
     font-size: 1.5rem;
 }
 
 .about-overview-grid {
-     display: flex;
+    display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 20px;
@@ -412,7 +415,7 @@ figcaption {
 }
 
 .title-teaser-text {
-     font-size: 1.2rem;
+    font-size: 1.2rem;
     position: relative;
     color: #333
 }
@@ -440,45 +443,45 @@ figcaption {
         gap: 10px;
     }
 
-   .teaser-grid {
-    flex-direction: column;
-    gap: 50px;
-   }
+    .teaser-grid {
+        flex-direction: column;
+        gap: 50px;
+    }
 
-   .teaser-grid img {
+    .teaser-grid img {
         height: auto;
         min-height: 250px;
-   }
+    }
 
-   .overview-grid {
-    flex-direction: column;
-    gap: 10px;
-   }
+    .overview-grid {
+        flex-direction: column;
+        gap: 10px;
+    }
 
-   .theater-article {
-    flex-direction: column;
-    gap: 25px;
-    padding: 10px;
-   }
+    .theater-article {
+        flex-direction: column;
+        gap: 25px;
+        padding: 10px;
+    }
 
-   .theater-article .article-content {
-    text-align: center;
-   }
+    .theater-article .article-content {
+        text-align: center;
+    }
 
-   .theater-article figure img {
-    min-height: auto;
-    max-height: 400px;
-    object-fit: cover;
-   }
+    .theater-article figure img {
+        min-height: auto;
+        max-height: 400px;
+        object-fit: cover;
+    }
 
-   .musik-article {
-    flex-direction: column;
-    gap: 25px;
-    text-align: center;
-   }
+    .musik-article {
+        flex-direction: column;
+        gap: 25px;
+        text-align: center;
+    }
 
-   .musik-article:nth-child(even) {
-        flex-direction: column; 
+    .musik-article:nth-child(even) {
+        flex-direction: column;
     }
 
     .musik-article figure img {
