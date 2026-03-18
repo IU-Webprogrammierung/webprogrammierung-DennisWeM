@@ -431,6 +431,21 @@ figcaption {
     text-align: center;
 }
 
+.skip-link {
+    position: absolute;
+    top: -1000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.skip-link:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    color: white;
+}
+
 @media (max-width: 768px) {
 
     .header-inner {
