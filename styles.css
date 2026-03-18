@@ -437,6 +437,12 @@ figcaption {
     width: 1px;
     height: 1px;
     overflow: hidden;
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    z-index: 2000;
+    border-radius: 0 0 10px 10px;
+    transition: top 0.3s;
 }
 
 .skip-link:focus {
@@ -444,6 +450,8 @@ figcaption {
     width: auto;
     height: auto;
     color: white;
+    top: 0; 
+    outline: 3px solid orange;
 }
 
 @media (max-width: 768px) {
