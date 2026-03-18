@@ -106,7 +106,7 @@ nav ul li a:hover {
     display: flex;
     gap: 40px;
     margin-top: 40px;
-    text-align: center;
+    text-align: left;
     align-items: stretch;
 }
 
@@ -114,6 +114,7 @@ nav ul li a:hover {
     flex: 1;
     flex-direction: column;
     display: flex;
+    height: 100%;
 }
 
 .teaser-grid img {
@@ -125,18 +126,19 @@ nav ul li a:hover {
 }
 
 .teaser-grid section p {
-    flex-grow: 1;
-    margin-bottom: 20px;
+    flex: 1 0 auto;
+    margin-bottom: 30px;
     text-align: left;
 }
 
 .teaser-grid figure {
     margin: 0;
     display: block;
+    margin-top: auto;
 }
 
 .teaser-grid h2 {
-    min-height: 3.5rem;
+    min-height: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -433,7 +435,7 @@ figcaption {
 
 .skip-link {
     position: absolute;
-    top: -1000px;
+    top: -100px;
     width: 1px;
     height: 1px;
     overflow: hidden;
@@ -442,11 +444,11 @@ figcaption {
     padding: 10px 20px;
     z-index: 2000;
     border-radius: 0 0 10px 10px;
-    transition: top 0.3s;
+    transition: top 0.3s ease;
+    transform: translateX(-50%);
 }
 
 .skip-link:focus {
-    position: static;
     width: auto;
     height: auto;
     color: white;
