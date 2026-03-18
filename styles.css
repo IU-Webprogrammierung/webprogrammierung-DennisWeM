@@ -32,11 +32,13 @@ a:hover {
 h1 {
     margin: 0 0 8px;
     font-size: 2rem;
+    text-align: center;
 }
 
 h2 {
     margin: 24px 0 8px;
     font-size: 1.3rem;
+    text-align: center;
 }
 
 h3 {
@@ -97,7 +99,7 @@ nav ul li a:hover {
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 .teaser-grid {
@@ -125,6 +127,7 @@ nav ul li a:hover {
 .teaser-grid section p {
     flex-grow: 1;
     margin-bottom: 20px;
+    text-align: left;
 }
 
 .teaser-grid figure {
@@ -210,6 +213,7 @@ nav ul li a:hover {
     min-width: 200px;
     position: relative;
     padding: 20px;
+    text-align: center;
 }
 
 .overview-item strong {
@@ -218,12 +222,13 @@ nav ul li a:hover {
     font-size: 1.2rem;
     letter-spacing: 1px;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 .overview-item span {
     font-size: 1.1rem;
     font-weight: 500;
-    color: #444;
+    color: #444;;
 }
 
 .theater-header {
@@ -308,11 +313,12 @@ nav ul li a:hover {
     background: #ffffff;
 }
 
-musik-projekte-text {
+.musik-projekte-text {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 20px;
+    text-align: center;
 }
 
 .musik-projekte h2 {
@@ -345,6 +351,7 @@ musik-projekte-text {
     border-radius: 20px;
     margin: 40px 0;
     background: #ffffff;
+    text-align: center;
 }
 
 .about-overview h2 {
@@ -418,6 +425,10 @@ figcaption {
     font-size: 1.2rem;
     position: relative;
     color: #333
+}
+
+.contact-area {
+    text-align: center;
 }
 
 @media (max-width: 768px) {
