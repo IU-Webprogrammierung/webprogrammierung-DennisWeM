@@ -10,6 +10,13 @@
     --rot: #FF0000;
     --schwarz: #000000;
     --orange: #FFA500;
+
+    /* Abstände */
+    --abstand-xs: 8px;
+    --abstand-s: 15px;
+    --abstand-m: 25px;
+    --abstand-l: 45px;
+    --abstand-xl: 60px;
 }
 
 
@@ -47,28 +54,28 @@ a:hover {
 }
 
 h1 {
-    margin: 0 0 8px;
+    margin: 0 0 var(--abstand-xs);
     font-size: 2rem;
     text-align: center;
 }
 
 h2 {
-    margin: 24px 0 8px;
+    margin: var(--abstand-m) 0 var(--abstand-xs);
     font-size: 1.3rem;
     text-align: center;
 }
 
 h3 {
-    margin: 0 0 8px;
+    margin: 0 0 var(--abstand-xs);
     font-size: 1.1rem;
 }
 
 p {
-    margin: 0 0 12px;
+    margin: 0 0 var(--abstand-s);
 }
 
 nav {
-    margin-left: 50px;
+    margin-left: var(--abstand-l);
     flex: 1;
     justify-content: center;
     display: flex;
@@ -88,7 +95,7 @@ nav ul li a {
     font-weight: 500;
     font-size: 1.1rem;
     position: relative;
-    padding: 5px 0;
+    padding: var(--abstand-s) 0;
 }
 
 nav ul li a:hover {
@@ -108,13 +115,13 @@ nav ul li a:hover {
     align-items: center;
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 var(--abstand-m);
     width: 100%;
 }
 
 .header-site {
     background-color: var(--hintergrundWeiß);
-    padding: 10px 0;
+    padding: var(--abstand-s) 0;
     top: 0;
     position: sticky;
     box-shadow: 0 2px 10px;
@@ -123,7 +130,7 @@ nav ul li a:hover {
 #main {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 20px;
+    padding: var(--abstand-m);
     text-align: left;
 }
 
@@ -135,7 +142,7 @@ nav ul li a:hover {
     overflow: hidden;
     background: var(--blau);
     color: var(--hintergrundWeiß);
-    padding: 10px 20px;
+    padding: var(--abstand-s) var(--abstand-m);
     z-index: 2000;
     border-radius: 0 0 10px 10px;
     transition: top 0.3s ease;
@@ -154,14 +161,14 @@ nav ul li a:hover {
 
 .title-teaser {
     max-height: 800px;
-    margin: 40px 0 60px 0;
+    margin: var(--abstand-l) 0 var(--abstand-xl) 0;
     padding: 0 20px;
 }
 
 .title-teaser h1 {
     font-size: 2.5rem;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: var(--abstand-m);
     color: var(--textFarbe)
 }
 
@@ -174,7 +181,7 @@ nav ul li a:hover {
 .teaser-grid {
     display: flex;
     gap: 40px;
-    margin-top: 40px;
+    margin-top: var(--abstand-l);
     text-align: left;
     align-items: stretch;
 }
@@ -196,7 +203,7 @@ nav ul li a:hover {
 
 .teaser-grid section p {
     flex: 1 0 auto;
-    margin-bottom: 30px;
+    margin-bottom: var(--abstand-m);
     text-align: left;
 }
 
@@ -220,7 +227,7 @@ nav ul li a:hover {
 .theater-header h1 {
     font-size: 2.5rem;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: var(--abstand-m);
     color: var(--textFarbe)
 }
 
@@ -232,21 +239,21 @@ nav ul li a:hover {
 
 .theater-header {
     max-height: 800px;
-    margin: 40px 0 60px 0;
-    padding: 0 20px;
+    margin: var(--abstand-l) 0 var(--abstand-xl) 0;
+    padding: 0 var(--abstand-m);
 }
 
 /* Übersicht */
 
 .overview-list {
-    padding: 40px 20px;
+    padding: var(--abstand-l) var(--abstand-m);
     border-radius: 20px;
-    margin: 40px 0;
+    margin: var(--abstand-l) 0;
     background: var(--hintergrundWeiß);
 }
 
 .overview-list h2 {
-    margin-bottom: 40px;
+    margin-bottom: var(--abstand-l);
     color: var(--textFarbe);
     font-size: 1.5rem;
 }
@@ -262,7 +269,7 @@ nav ul li a:hover {
     flex: 1;
     min-width: 200px;
     position: relative;
-    padding: 20px;
+    padding: var(--abstand-m);
     text-align: center;
 }
 
@@ -271,7 +278,7 @@ nav ul li a:hover {
     color:var(--blau);
     font-size: 1.2rem;
     letter-spacing: 1px;
-    margin-bottom: 8px;
+    margin-bottom: var(--abstand-xs);
     text-align: center;
 }
 
@@ -287,8 +294,8 @@ nav ul li a:hover {
     display: flex;
     align-items: stretch;
     gap: 40px;
-    margin-bottom: 50px;
-    padding: 20px;
+    margin-bottom: var(--abstand-l);
+    padding: var(--abstand-m);
     border-radius: 20px;
     overflow: hidden;
 }
@@ -318,7 +325,7 @@ nav ul li a:hover {
 
 .theater-article h3 {
     font-size: 1.6rem;
-    margin-bottom: 10px;
+    margin-bottom: var(--abstand-s);
 }
 
 
@@ -329,8 +336,8 @@ nav ul li a:hover {
 
 .musik-header {
     max-height: 800px;
-    margin: 40px 0 60px 0;
-    padding: 0 20px;
+    margin: var(--abstand-l) 0 var(--abstand-xl) 0;
+    padding: 0 var(--abstand-m);
 }
 
 .musik-text {
@@ -342,14 +349,14 @@ nav ul li a:hover {
 .musik-header h1 {
     font-size: 2.5rem;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: var(--abstand-m);
     color: var(--textFarbe)
 }
 
 .musik-projekte {
-    padding: 40px 20px;
+    padding: var(--abstand-l) var(--abstand-m);
     border-radius: 20px;
-    margin: 40px 0;
+    margin: var(--abstand-l) 0;
     background: var(--hintergrundWeiß);
 }
 
@@ -362,7 +369,7 @@ nav ul li a:hover {
 }
 
 .musik-projekte h2 {
-    margin-bottom: 40px;
+    margin-bottom: var(--abstand-l);
     color: var(--textFarbe);
     font-size: 1.5rem;
 }
@@ -373,7 +380,7 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
     gap: 60px;
-    margin-bottom: 60px;
+    margin-bottom: var(--abstand-xl);
     text-align: left;
     ;
 }
@@ -384,7 +391,7 @@ nav ul li a:hover {
 
 .musik-article h3 {
     font-size: 1.6rem;
-    margin-bottom: 10px;
+    margin-bottom: var(--abstand-s);
 }
 
 .musik-article figure {
@@ -413,8 +420,8 @@ nav ul li a:hover {
 
 .about-intro {
     max-height: 800px;
-    margin: 40px 0 60px 0;
-    padding: 0 20px;
+    margin: var(--abstand-l) 0 var(--abstand-xl) 0;
+    padding: 0 var(--abstand-m);
 }
 
 .about-text {
@@ -426,22 +433,22 @@ nav ul li a:hover {
 .about-intro h1 {
     font-size: 2.5rem;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: var(--abstand-m);
     color: var(--textFarbe)
 }
 
 /* Über Mich - Übersicht */
 
 .about-overview {
-    padding: 40px 20px;
+    padding: var(--abstand-l) var(--abstand-m);
     border-radius: 20px;
-    margin: 40px 0;
+    margin: var(--abstand-l) 0;
     background: var(--hintergrundWeiß);
     text-align: center;
 }
 
 .about-overview h2 {
-    margin-bottom: 40px;
+    margin-bottom: var(--abstand-l);
     color: var(--textFarbe);
     font-size: 1.5rem;
 }
@@ -457,7 +464,7 @@ nav ul li a:hover {
     flex: 1;
     min-width: 200px;
     position: relative;
-    padding: 20px;
+    padding: var(--abstand-m);
 }
 
 .about-overview-item strong {
@@ -465,7 +472,7 @@ nav ul li a:hover {
     color: var(--blau);
     font-size: 1.2rem;
     letter-spacing: 1px;
-    margin-bottom: 8px;
+    margin-bottom: var(--abstand-s);
 }
 
 .about-overview-item span {
@@ -481,7 +488,7 @@ nav ul li a:hover {
 }
 
 .about-image {
-    margin: 60px auto 40px;
+    margin: var(--abstand-xl) auto var(--abstand-l);
     max-width: 500px;
     display: block;
 }
@@ -493,7 +500,7 @@ nav ul li a:hover {
 }
 
 figcaption {
-    margin-top: 15px;
+    margin-top: var(--abstand-s);
     color: var(--textHell);
     font-style: italic;
     font-size: 1.2rem;
@@ -509,7 +516,7 @@ figcaption {
     .header-inner {
         flex-direction: column;
         gap: 15px;
-        padding: 15px;
+        padding: var(--abstand-s);
     }
 
     .header-site {
@@ -545,7 +552,7 @@ figcaption {
     .theater-article {
         flex-direction: column;
         gap: 25px;
-        padding: 10px;
+        padding: var(--abstand-s);
     }
 
     .theater-article .article-content {
@@ -574,8 +581,8 @@ figcaption {
     }
 
     .musik-projekte {
-        padding: 20px;
-        margin-bottom: 50px;
+        padding: var(--abstand-m);
+        margin-bottom: var(--abstand-l);
     }
 
     .about-overview-grid {
@@ -587,7 +594,7 @@ figcaption {
     .about-overview-item {
         width: 100%;
         max-width: 400px;
-        padding: 15px;
+        padding: var(--abstand-s);
     }
 
     .about-image {
