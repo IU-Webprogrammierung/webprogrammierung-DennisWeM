@@ -17,6 +17,11 @@
     --abstand-m: 25px;
     --abstand-l: 45px;
     --abstand-xl: 60px;
+
+    /* Radien für Ecken */
+    --rd-s: 8px;
+    --rd-m: 12px;
+    --rd-l: 20px;
 }
 
 
@@ -42,7 +47,7 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
-    border-radius: 14px;
+    border-radius: var(--rd-m);
 }
 
 a {
@@ -106,7 +111,7 @@ nav ul li a:hover {
     width: 100px;
     height: auto;
     display: block;
-    border-radius: 10px;
+    border-radius: var(--rd-m);
     border: 2px solid var(--schwarz);
 }
 
@@ -144,7 +149,7 @@ nav ul li a:hover {
     color: var(--hintergrundWeiß);
     padding: var(--abstand-s) var(--abstand-m);
     z-index: 2000;
-    border-radius: 0 0 10px 10px;
+    border-radius: 0 0 var(--rd-m) var(--rd-m);
     transition: top 0.3s ease;
     transform: translateX(-50%);
 }
@@ -196,7 +201,7 @@ nav ul li a:hover {
 .teaser-grid img {
     width: 100%;
     height: 350px;
-    border-radius: 8px;
+    border-radius: var(--rd-s);
     object-fit: cover;
     object-position: center;
 }
@@ -247,7 +252,7 @@ nav ul li a:hover {
 
 .overview-list {
     padding: var(--abstand-l) var(--abstand-m);
-    border-radius: 20px;
+    border-radius: var(--rd-l);
     margin: var(--abstand-l) 0;
     background: var(--hintergrundWeiß);
 }
@@ -296,7 +301,7 @@ nav ul li a:hover {
     gap: 40px;
     margin-bottom: var(--abstand-l);
     padding: var(--abstand-m);
-    border-radius: 20px;
+    border-radius: var(--rd-l);
     overflow: hidden;
 }
 
@@ -320,7 +325,7 @@ nav ul li a:hover {
     height: 100%;
     min-height: 400px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: var(--abstand-m);
 }
 
 .theater-article h3 {
@@ -355,7 +360,7 @@ nav ul li a:hover {
 
 .musik-projekte {
     padding: var(--abstand-l) var(--abstand-m);
-    border-radius: 20px;
+    border-radius: var(--rd-l);
     margin: var(--abstand-l) 0;
     background: var(--hintergrundWeiß);
 }
@@ -405,7 +410,7 @@ nav ul li a:hover {
     min-height: 400px;
     ;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: var(--rd-l);
     ;
 }
 
@@ -441,7 +446,7 @@ nav ul li a:hover {
 
 .about-overview {
     padding: var(--abstand-l) var(--abstand-m);
-    border-radius: 20px;
+    border-radius: var(--rd-l);
     margin: var(--abstand-l) 0;
     background: var(--hintergrundWeiß);
     text-align: center;
@@ -496,7 +501,7 @@ nav ul li a:hover {
 .about-image img {
     width: 100%;
     height: auto;
-    border-radius: 20px;
+    border-radius: var(--rd-l);
 }
 
 figcaption {
