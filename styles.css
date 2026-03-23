@@ -513,6 +513,45 @@ figcaption {
 }
 
 
+/* Kontaktformular */
+
+.contact-form {
+    max-width: 600px;
+    margin: var(--abstand-m) auto;
+    text-align: center;
+    background-color: var(--hintergrundWeiß);
+    padding: var(--abstand-l);
+    border-radius: var(--rd-m);
+}
+
+.form-group {
+    margin-bottom: var(--abstand-m);
+}
+
+.form-group label {
+    display: block;
+    font-weight: 500;
+    color: var(--textFarbe);
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: var(--abstand-xs);
+    border-radius: var(--rd-s);
+    font-size: 1rem;
+}
+
+.btn-submit {
+    background-color: var(--blau);
+    color: var(--hintergrundWeiß);
+    padding: var(--abstand-s) var(--abstand-l);
+    border-radius: var(--abstand-s);
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
 
 /* Responsives Verhalten */
 
