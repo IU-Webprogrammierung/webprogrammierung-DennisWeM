@@ -576,6 +576,19 @@ textarea:user-invalid {
     border: 2px solid var(--rot);
 }
 
+.thanks-message {
+    display: none;
+    color: var(--schwarz);
+    font-weight: bold;
+    margin-top: var(--abstand-s);
+    font-size: 0.9rem;
+}
+
+.contact-form:valid .btn-submit:active + .thanks-message,
+.contact-form:valid .btn-submit:focus + .thanks-message {
+    display: block;
+}
+
 /* Animationen */
 
 .teaser-grid figure, 
