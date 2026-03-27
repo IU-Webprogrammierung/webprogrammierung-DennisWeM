@@ -7,9 +7,11 @@
     --textFarbe: #333;
     --textHell: #444;
     --blau: #007bff;
+    --dunkelBlau: #0056b3;
     --rot: #FF0000;
     --schwarz: #000000;
     --orange: #FFA500;
+    --gruen: #28a745;
 
     /* Abstände */
     --abstand-xs: 8px;
@@ -556,12 +558,22 @@ figcaption {
 }
 
 .btn-submit:hover {
-    background-color: #0056b3;
+    background-color: var(--dunkelBlau);
     transform: translateY(-2px)
 }
 
 .btn-submit:active {
     transform: translateY(2px);
+}
+
+input:valid,
+textarea:valid {
+    border: 2px solid var(--gruen);
+}
+
+input:user-invalid,
+textarea:user-invalid {
+    border: 2px solid var(--rot);
 }
 
 /* Animationen */
