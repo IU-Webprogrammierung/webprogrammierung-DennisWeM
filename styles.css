@@ -186,7 +186,7 @@ nav ul li a[aria-current="page"] {
     padding: 5px;
     bottom: 30px;
     left: 50%;
-    position: fixed;
+    position: relative;
     margin-top: 50px;
     transform: translateX(-50%);
 }
