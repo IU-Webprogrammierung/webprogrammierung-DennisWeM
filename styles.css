@@ -48,7 +48,7 @@ body {
 
 img {
     max-width: 100%;
-    height: auto;
+    height: 350px;
     display: block;
     border-radius: var(--rd-m);
 }
@@ -231,7 +231,6 @@ footer {
     display: flex;
     gap: 40px;
     margin-top: var(--abstand-l);
-    text-align: left;
     align-items: stretch;
 }
 
@@ -239,7 +238,6 @@ footer {
     flex: 1;
     flex-direction: column;
     display: flex;
-    height: 100%;
 }
 
 .teaser-grid img {
@@ -247,23 +245,19 @@ footer {
     height: 350px;
     border-radius: var(--rd-s);
     object-fit: cover;
-    object-position: center;
 }
 
 .teaser-grid section p {
     flex: 1 0 auto;
     margin-bottom: var(--abstand-m);
-    text-align: left;
 }
 
 .teaser-grid figure {
     margin: 0;
-    display: block;
     margin-top: auto;
 }
 
 .teaser-grid h2 {
-    min-height: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -689,8 +683,9 @@ textarea:user-invalid {
     }
 
     .teaser-grid img {
-        height: auto;
-        min-height: 250px;
+        height: 250px;
+        width: 100%;
+        margin-top: var(--abstand-m);
     }
 
     .overview-grid {
@@ -711,7 +706,6 @@ textarea:user-invalid {
     .theater-article figure img {
         min-height: auto;
         max-height: 400px;
-        object-fit: cover;
     }
 
     .musik-article {
