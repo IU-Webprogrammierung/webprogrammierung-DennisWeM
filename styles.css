@@ -2,7 +2,7 @@
 
 :root {
     /*Farben */
-    --hintergrund: #eef2f6; 
+    --hintergrund: #eef2f6;
     --hintergrundWeiß: #ffffff;
     --textFarbe: #333;
     --textHell: #444;
@@ -112,7 +112,7 @@ nav ul li a:hover {
 
 nav ul li a[aria-current="page"] {
     color: var(--blau);
-} 
+}
 
 .logo img {
     width: 100px;
@@ -166,7 +166,7 @@ nav ul li a[aria-current="page"] {
     width: auto;
     height: auto;
     color: var(--hintergrundWeiß);
-    top: 0; 
+    top: 0;
     outline: 3px solid var(--orange);
     left: 15px;
     transform: translateX(-5%);
@@ -193,7 +193,8 @@ nav ul li a[aria-current="page"] {
 
 #back-to-top:hover {
     background-color: var(--dunkelBlau);
-    transform: translateX(-50%) translateY(-3px); /* Schwebe-Effekt beim Hover */
+    transform: translateX(-50%) translateY(-3px);
+    /* Schwebe-Effekt beim Hover */
 }
 
 footer {
@@ -318,7 +319,7 @@ footer {
 
 .overview-item strong {
     display: block;
-    color:var(--blau);
+    color: var(--blau);
     font-size: 1.2rem;
     letter-spacing: 1px;
     margin-bottom: var(--abstand-xs);
@@ -619,30 +620,30 @@ textarea:user-invalid {
     font-size: 0.9rem;
 }
 
-.contact-form:valid .btn-submit:active + .thanks-message,
-.contact-form:valid .btn-submit:focus + .thanks-message {
+.contact-form:valid .btn-submit:active+.thanks-message,
+.contact-form:valid .btn-submit:focus+.thanks-message {
     display: block;
 }
 
 /* Animationen */
 
-.teaser-grid figure, 
-.theater-article figure, 
+.teaser-grid figure,
+.theater-article figure,
 .musik-article figure,
 .about-image {
     overflow: hidden;
     border-radius: var(--rd-m);
 }
 
-.teaser-grid img, 
-.theater-article img, 
+.teaser-grid img,
+.theater-article img,
 .musik-article img,
 .about-image img {
     transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
-.teaser-grid section:hover img, 
-.theater-article:hover img, 
+.teaser-grid section:hover img,
+.theater-article:hover img,
 .musik-article:hover img,
 .about-image:hover img {
     transform: scale(1.08);
@@ -763,7 +764,8 @@ textarea:user-invalid {
         filter: brightness(0.85);
     }
 
-    input, textarea {
+    input,
+    textarea {
         background-color: #2c2c2c;
         border: 1px solid #444;
         color: #ffffff;
