@@ -168,7 +168,7 @@ nav ul li a[aria-current="page"] {
     color: var(--hintergrundWeiß);
     top: 0; 
     outline: 3px solid var(--orange);
-    left: 15;
+    left: 15px;
     transform: translateX(-5%);
 }
 
